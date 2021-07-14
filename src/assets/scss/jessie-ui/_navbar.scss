@@ -1,0 +1,89 @@
+.button-bar{
+    background: $default-color;
+}
+
+.header {
+    background: $background-color;
+    color: $primary-color;
+    border: 1px solid $primary-color;
+ 
+}
+
+.searchIcon {
+    font-size: 20px !important;
+    margin-left: 10px;
+}
+
+.searchInput {
+    border: none;
+    width: 90%;
+}
+.searchInput:focus {
+    outline: none;
+}
+.search{
+    widows: 100px;
+    height: 30px;
+     align-items: center;
+     justify-content: center;
+    margin: 7px 0;
+   
+}
+
+
+.navbar{
+    padding-top: $navbar-padding-base;
+    padding-bottom: $navbar-padding-base;
+    min-height: 53px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+
+    a{
+        vertical-align: middle;
+
+        &:not(.btn):not(.dropdown-item){
+            color: $text-color;
+            font-size:$font-size-base ;
+            text-transform: uppercase;
+        }
+    }
+
+    p{
+        display: inline-block;
+        margin: 0;
+        line-height: 21px;
+        font-weight: inherit;
+        font-size: inherit;
+    }
+
+    &.bg-white:not(.navbar-transparent){
+        a:not(.dropdown-item):not(.btn){
+            color: $default-color;
+
+            &.disabled{
+                opacity: .5;
+                color: $default-color;
+            }
+        }
+
+        .button-bar{
+            background: $default-color;
+        }
+
+        .nav-item.active .nav-link:not(.btn),
+        .nav-item .nav-link:not(.btn):focus,
+        .nav-item .nav-link:not(.btn):hover,
+        .nav-item .nav-link:not(.btn):active{
+            background-color: $opacity-gray-3;
+        }
+
+       
+    }
+
+    .button-dropdown{
+        .navbar-toggler-bar:nth-child(2){
+            width: 17px;
+        }
+    }
+}
+

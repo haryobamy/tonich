@@ -1,0 +1,31 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+  
+
+// variables
+
+@import 'jessie-ui/variables';
+// @import 'jessie-ui/mixins/navbar';
+
+//components
+@import "jessie-ui/navbar";
+// @import "jessie-ui/responsive";
+@import "jessie-ui/header";
+@import "jessie-ui/welcome";
+@import "jessie-ui/blog";
+
+
+*{
+    margin: 0;
+    // font-family: 'Roboto', sans-serif;
+    // background: $background-color;
+}
+
+.blogHeader {
+    margin-bottom: 20px 10px;
+    color:$text-color;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
