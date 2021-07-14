@@ -23,7 +23,7 @@ const Blog = () => {
                    <div className='blogPosts'>
                        
                        <img src={bg} alt="" className="blogimg" />
-                       <Button className='bg-light text-dark fw-bold topButton'>INTERIOR</Button>
+                       <Button className='bg-light text-dark fw-bold topButton '>INTERIOR</Button>
                    </div>
                    
                </div>
