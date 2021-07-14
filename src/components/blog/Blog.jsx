@@ -21,9 +21,11 @@ const Blog = () => {
            <Col lg='7' md='12'>
                <div className='blog'>
                    <div className='blogPosts'>
-                       <Button>Interior</Button>
+                       
                        <img src={bg} alt="" className="blogimg" />
+                       <Button className='bg-light text-dark fw-bold topButton'>INTERIOR</Button>
                    </div>
+                   
                </div>
            </Col>
            <Col lg='3' md='12'>
