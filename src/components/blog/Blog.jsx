@@ -21,6 +21,7 @@ const Blog = () => {
            <Col lg='7' md='12'>
                <div className='blog'>
                    <div className='blogPosts'>
+                       <Button>Interior</Button>
                        <img src={bg} alt="" className="blogimg" />
                    </div>
                </div>
